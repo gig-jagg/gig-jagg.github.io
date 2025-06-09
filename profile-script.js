@@ -5,7 +5,7 @@ const boxData = [
     image:"assets/linkedin.png"},
 
     { title: "GitHub", 
-    link:"https://github.com/jaggernauthg",
+    link:"https://github.com/gig-jagg",
     image:"assets/github.png"},
     ];
 
