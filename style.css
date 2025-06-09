@@ -277,3 +277,94 @@ rect {
     padding-top: 60px;
     padding-bottom: 0px;
 }
+
+/* --------------------------------------
+   MOBILE RESPONSIVE STYLES
+   -------------------------------------- */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 36px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    header nav {
+        font-size: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .bio-text p {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .primary-skills,
+    .secondary-skills {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .primary-skills img,
+    .secondary-skills img {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .primary-skills p,
+    .secondary-skills p {
+        font-size: 11px;
+    }
+
+    .chart {
+        flex-direction: column;
+        overflow-x: auto;
+    }
+
+    .chart svg {
+        width: 100%;
+        height: auto;
+    }
+
+    .chart-label h5 {
+        font-size: 14px;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .profiles {
+        flex-direction: column;
+    }
+
+    .profile-box {
+        width: 90%;
+        max-width: 200px;
+        margin: 10px auto;
+    }
+
+    .chart-heading {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        padding-top: 40px;
+        text-align: center;
+    }
+}
