@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const boxData = [
         
         { title: "STUDY OF THE MORPHOMETRY OF THE PITUITARY GLAND IN A NORTH TRINIDADIAN POPULATION",
@@ -55,7 +54,7 @@ boxData.forEach(item => {
         });
 
         container.appendChild(box); 
-=======
+
 const boxData = [
         
         { title: "STUDY OF THE MORPHOMETRY OF THE PITUITARY GLAND IN A NORTH TRINIDADIAN POPULATION",
@@ -108,5 +107,5 @@ boxData.forEach(item => {
         });
 
         container.appendChild(box); 
->>>>>>> 7a50195c8f5003e1eb5f01ddf94f324fead87794
-    });
+
+    })
